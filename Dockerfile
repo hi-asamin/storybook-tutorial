@@ -10,5 +10,3 @@ ADD ./package.json $APP_ROOT/package.json
 RUN yarn install
 ADD . $APP_ROOT
 
-CMD ["yarn", "start"]
-
