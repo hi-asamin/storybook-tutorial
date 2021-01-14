@@ -6,6 +6,6 @@ import Button from '.';
 
 const stories = storiesOf('Button', module);
 
-stories.add('button component', () => (
+stories.add('Atoms/Button', () => (
 	  <Button text={text('Label', 'Click Me')} onClick={action('Click!')} />
 ));
